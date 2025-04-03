@@ -16,6 +16,13 @@ addMoneyBtn.addEventListener('click', (e) => {
     document.getElementById("cashout").classList.add("hidden");
     document.getElementById("getbonus").classList.add("hidden");
     document.getElementById("Pay-Bill").classList.add("hidden");
+
+    addMoneyBtn.classList.add("active");
+    cashOut.classList.remove("active");
+    transfarMoney.classList.remove("active");
+    getBonus.classList.remove("active");
+    payBill.classList.remove("active");
+    transactions.classList.remove("active");
 })
 
  
@@ -31,6 +38,12 @@ cashOut.addEventListener('click', (e) => {
     document.getElementById("Pay-Bill").classList.add("hidden");
     document.getElementById("transfermoney").classList.add("hidden");
 
+    addMoneyBtn.classList.remove("active");
+    cashOut.classList.add("active");
+    transfarMoney.classList.remove("active");
+    getBonus.classList.remove("active");
+    payBill.classList.remove("active");
+    transactions.classList.remove("active");
 })
 
 
@@ -46,6 +59,13 @@ transfarMoney.addEventListener('click', (e) => {
     document.getElementById("cashout").classList.add("hidden");
     document.getElementById("getbonus").classList.add("hidden");
     document.getElementById("Pay-Bill").classList.add("hidden");
+
+    addMoneyBtn.classList.remove("active");
+    cashOut.classList.remove("active");
+    transfarMoney.classList.add("active");
+    getBonus.classList.remove("active");
+    payBill.classList.remove("active");
+    transactions.classList.remove("active");
 })
 
 
@@ -61,6 +81,13 @@ getBonus.addEventListener('click', (e) => {
     document.getElementById("cashout").classList.add("hidden");
     document.getElementById("getbonus").classList.remove("hidden");
     document.getElementById("Pay-Bill").classList.add("hidden");
+    
+    addMoneyBtn.classList.remove("active");
+    cashOut.classList.remove("active");
+    transfarMoney.classList.remove("active");
+    getBonus.classList.add("active");
+    payBill.classList.remove("active");
+    transactions.classList.remove("active");
 })
 
 
@@ -76,6 +103,13 @@ payBill.addEventListener('click', (e) => {
     document.getElementById("cashout").classList.add("hidden");
     document.getElementById("getbonus").classList.add("hidden");
     document.getElementById("Pay-Bill").classList.remove("hidden");
+    
+    addMoneyBtn.classList.remove("active");
+    cashOut.classList.remove("active");
+    transfarMoney.classList.remove("active");
+    getBonus.classList.remove("active");
+    payBill.classList.add("active");
+    transactions.classList.remove("active");
 })
 
 
@@ -91,6 +125,13 @@ transactions.addEventListener('click', (e) => {
     document.getElementById("cashout").classList.add("hidden");
     document.getElementById("getbonus").classList.add("hidden");
     document.getElementById("Pay-Bill").classList.add("hidden");
+    
+    addMoneyBtn.classList.remove("active");
+    cashOut.classList.remove("active");
+    transfarMoney.classList.remove("active");
+    getBonus.classList.remove("active");
+    payBill.classList.remove("active");
+    transactions.classList.add("active");
 })
 
 
